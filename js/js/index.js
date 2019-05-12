@@ -2,26 +2,26 @@
  * 1. Что выведет alert(typeof NaN); ?
  * -number
  */
-//alert(typeof NaN);
+alert(typeof NaN);
 
 /**
  * 2. Что выведет alert(NaN === NaN); ?
  * -false
  */
-//alert(NaN === NaN);
+alert(NaN === NaN);
 /**
  * 3. 0.1 + 0.2 == 0.3 ?
  * -false
  */
-//alert(0.1 + 0.2 == 0.3);
+alert(0.1 + 0.2 == 0.3);
 /**
  * 4. Какой тип будет иметь переменная a, если она создается при помощи следующего кода:
  * var a = "a,b".split(',');
  * -Object
  *
  */
-// var a = "a,b".split(',');
-// alert(typeof a);
+var a = "a,b".split(',');
+alert(typeof a);
 /**
  * 5. Сделать так, чтобы при нажатии на элемент <а> алертом выводилось «Hello world!».
  * @type {HTMLElement}
@@ -91,7 +91,7 @@ function closure() {
     add();
 }
 
-//closure();
+closure();
 
 /**
  * 9. Написать функцию, которая уменьшает или увеличивает указанное время на заданное количество минут, например:
@@ -120,7 +120,7 @@ function changeTime(time, change) {
     console.log(hours + ':' + minutes);
 }
 
-//changeTime('00:00', 1);
+changeTime('00:00', 1000);
 
 /**
  * 10. Написать функцию, возвращающую градус, на который указывают часовая и минутная стрелки в зависимости от времени, например:
